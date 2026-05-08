@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flight Status Tracker</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="flights.html">Flights</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>Flight Status Tracker</h1>
+    <p>Search and trace flights live</p>
+  </header>
+
+  <section class="search-box">
+    <input type="text" id="flightInput" placeholder="Enter flight number (e.g., AI302)">
+    <button onclick="getFlightStatus()">Search</button>
+  </section>
+
+  <section id="result"></section>
+
+  <!-- Map Section -->
+  <section id="mapSection">
+    <h2>Live Flight Map</h2>
+    <div id="map"></div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Flight Tracker | Designed by Parveen</p>
+  </footer>
+
+  <!-- Leaflet JS -->
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

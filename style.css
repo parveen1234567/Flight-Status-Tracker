@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('flight\ image.jpg');
+  background-size: cover;
+  color: #ffffff;
+}
+
+
+nav {
+  background: rgb(253, 253, 253);
+  padding: 15px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  margin: 0 20px;
+}
+nav ul li a {
+  color: #f9d342;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  color: #ffcc00;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: hsl(0, 0%, 0%);
+}
+
+.search-box {
+  text-align: center;
+  margin: 40px;
+}
+input {
+  padding: 12px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 10px;
+}
+button {
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  background: #f9d342;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background: #ffcc00;
+}
+
+#result {
+  margin: 30px auto;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: left;
+}
+
+#mapSection {
+  text-align: center;
+  margin: 40px;
+}
+#map {
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.flights-list {
+  margin: 30px auto;
+  max-width: 900px;
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  color: #000000;
+}
+
+th {
+  background: rgb(0, 0, 0);
+  color: #f9d342;
+}
+.contact {
+  background: #000;       /* solid black background */
+  padding: 40px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+
+.contact h2 {
+  color: #f9d342;         /* golden yellow for heading */
+  margin-bottom: 20px;
+}
+
+.contact p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #fff;            /* white text for readability */
+}
+
