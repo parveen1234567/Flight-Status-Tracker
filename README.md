@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="YOUR_DEPLOY_LINK">🌐 Live Demo</a> •
+  <a href="[YOUR_DEPLOY_LINK](https://flight-status-tracker.netlify.app/)">🌐 Live Demo</a> •
   <a href="https://github.com/parveen1234567/Flight-Status-Tracker">💻 Source Code</a>
 </p>
 
@@ -489,7 +489,7 @@ The project focuses on delivering a user-friendly experience while visualizing f
 
 | Resource | Link |
 |-----------|------|
-| 🌐 Live Application | YOUR_DEPLOY_LINK |
+| 🌐 Live Application | https://flight-status-tracker.netlify.app/ |
 | 💻 GitHub Repository | https://github.com/parveen1234567/Flight-Status-Tracker |
 | 👨‍💻 GitHub Profile | https://github.com/parveen1234567 |
 | 💼 LinkedIn | https://linkedin.com/in/shaik-chinthapalli-parveen-983668257 |
