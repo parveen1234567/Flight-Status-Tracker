@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="[YOUR_DEPLOY_LINK](https://flight-status-tracker.netlify.app/)">🌐 Live Demo</a> •
+  <a href="https://flight-status-tracker.netlify.app/">🌐 Live Demo</a> •
   <a href="https://github.com/parveen1234567/Flight-Status-Tracker">💻 Source Code</a>
 </p>
 
